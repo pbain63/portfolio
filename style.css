@@ -1,5 +1,24 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Base Styles (Mobile first) */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+header {
+    background: #005fa3;
+    text-align: center;
+    padding: 1em 0;
 }
