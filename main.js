@@ -17,7 +17,7 @@ navToggle.addEventListener("click", () => {
 //   }
 // });
 
-// Reset menu when resizing to desktop
+// Reset menu when resizing to desktop layout
 window.addEventListener("resize", () => {
   if (window.innerWidth >= 700) {
     navList.classList.remove("nav--visible");
