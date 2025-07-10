@@ -54,18 +54,24 @@ header {
   padding: 0;
   margin: 0;
   list-style: none;
-  /* position: absolute; */
+  position: absolute;
   top: 100%;
   right: 0;
   width: 100%;
   max-width: 250px;
-  /* display: none; */
-  /* flex-direction: column; */
+  display: none;
+  flex-direction: column;
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
 }
 .nav__list.nav--visible {
-  /* display: flex; */
+  display: flex;
   transform: scaleY(1);
 }
-
+.nav__link {
+  display: block;
+  background: #0077cc;
+  color: white;
+  padding: 1.25rem;
+  transition: background 0.3s, color 0.3s;
+}
