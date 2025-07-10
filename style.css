@@ -20,19 +20,30 @@ header {
 .container {
   border: 2px solid yellow;
   width: 90%;
-  max-width:1200px;
+  max-width: 1200px;
   margin: 0 auto;
   /* position: relative; */
 }
 .row {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__name {
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
+}
+.nav-toggle {
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+  color: white;
+  cursor: pointer;
+}
+.nav__link {
+  text-decoration: none;
+  color: inherit;
 }
 .nav__list {
   border: 2px solid red;
@@ -48,5 +59,9 @@ header {
   /* flex-direction: column; */
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
-
 }
+.nav__list.nav--visible {
+  /* display: flex; */
+  transform: scaleY(1);
+}
+
