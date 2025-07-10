@@ -48,9 +48,15 @@ header {
 .nav__link {
   text-decoration: none;
   color: inherit;
+  display: block;
+  background: #0077cc;
+  color: white;
+  padding: 1.25rem;
+  /* transition: background 0.3s, color 0.3s; */
+  font-size: 1.125rem;
 }
 .nav__list {
-  border: 2px solid red;
+  border: 2px solid #005fa3;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -68,16 +74,13 @@ header {
   display: flex;
   transform: scaleY(1);
 }
-.nav__link {
-  display: block;
-  background: #0077cc;
-  color: white;
-  padding: 1.25rem;
-  transition: background 0.3s, color 0.3s;
+.nav__item + .nav__item {
+  margin-top: 0.15rem;
 }
 .nav__link:hover,
 .nav__link:focus {
   /* background-color: #e4b363; */
-        /* color: #464655; */
+  /* color: #464655; */
   opacity: 0.75;
+  /* color: ; */
 }
