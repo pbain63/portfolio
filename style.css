@@ -124,6 +124,25 @@ header {
 .hero__title span {
   display: block;
 }
+.about_me--heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
+.about_me__text {
+  margin: 1rem 0;
+}
+.about_me__icons {
+  /* font-size: 3rem; */
+  width: 35px;
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
