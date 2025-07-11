@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -44,8 +48,10 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container row">
-          <div class="hero__image--wrapper">
+        <!-- <div class="hero__clip-path"> -->
+        <div class="background-shape"></div>
+        <div class="container">
+          <div class="hero__image--content">
             <img
               class="hero__image"
               src="./assets/images/fallen-angel.jpg"
@@ -53,8 +59,7 @@
             />
             <h1 class="hero__title">Prodip Bain</h1>
           </div>
-
-          <div class="about_me--wrapper">
+          <div class="about_me--content">
             <h2 class="section__title">About Me</h2>
             <p class="about_me__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -76,6 +81,7 @@
             </div>
           </div>
         </div>
+        <!-- </div> -->
       </section>
 
       <section class="skills">
