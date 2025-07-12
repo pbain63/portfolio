@@ -229,6 +229,26 @@ header {
 .backend:hover,
 .backend:focus {
 }
+/* Projects section */
+.project__card--wrapper {
+  border: 2px solid blue;
+}
+.project__card {
+  border: 2px solid blueviolet;
+}
+.project__screenshoot {
+  border: 2px solid red;
+  /* height: 13rem; */
+  /* width: 100%; */
+}
+.project__name_and_icons {
+  border: 2px solid red;
+}
+.project__icons {
+  width: 1rem;
+  display: flex;
+  gap: 1rem;
+}
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
