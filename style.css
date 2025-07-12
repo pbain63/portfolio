@@ -214,6 +214,9 @@ header {
   /* justify-content: center; */
   align-items: center;
 }
+.skills__items + .skills__items {
+  margin-top: 1rem;
+}
 .skills__items__icon {
   width: 2rem;
 }
