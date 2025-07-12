@@ -230,6 +230,9 @@ header {
 .backend:focus {
 }
 /* Projects section */
+.project__name {
+   font-family: "Playfair Display", serif;
+}
 .project__card--wrapper {
   border: 2px solid blue;
 }
@@ -243,11 +246,20 @@ header {
 }
 .project__name_and_icons {
   border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
 }
 .project__icons {
-  width: 1rem;
+  width: 1.5rem;
   display: flex;
   gap: 1rem;
+  /* border: 2px solid green; */
+}
+.project__description {
+  width: 80%;
+  margin: 0 auto;
 }
 /* Desktop view */
 @media (min-width: 800px) {
