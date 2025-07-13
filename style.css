@@ -278,12 +278,16 @@ header {
   width: 80%;
   margin: 0 auto;
   font-size: 0.87rem;
+  border: 2px solid green;
 }
 .tech {
   font-size: 0.55rem;
   width: 70%;
   margin: 0 auto;
   padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 0.5rem;
   /* background: red; */
   /* color: red; */
   /* margin-left: 1rem; */
@@ -293,9 +297,10 @@ header {
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 100px;
+  white-space: nowrap; /* Prevent breaking inside span */
 }
 .tech span:not(:first-of-type) {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   /* background: red; */
 }
 /* Desktop view */
