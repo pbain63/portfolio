@@ -263,6 +263,7 @@ header {
 .project__name_and_icons {
   border: 2px solid red;
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
@@ -277,7 +278,13 @@ header {
   width: 80%;
   margin: 0 auto;
 }
-
+.tech {
+  color: red;
+  /* margin-left: 1rem; */
+}
+.tech span {
+    /* margin-left: 1rem; */
+}
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
