@@ -238,11 +238,27 @@ header {
 }
 .project__card {
   border: 2px solid blueviolet;
+  /* max-width: 800px; */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+.project__card + .project__card {
+  margin-top: 2rem;
+}
+.project-image {
+  width: 100%;
+  height: 300px;    /*       */
+  overflow: hidden;
+}
+
 .project__screenshoot {
   border: 2px solid red;
-  /* height: 13rem; */
-  /* width: 100%; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
 }
 .project__name_and_icons {
   border: 2px solid red;
@@ -261,6 +277,7 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
