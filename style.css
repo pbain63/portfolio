@@ -283,12 +283,13 @@ header {
   font-size: 0.55rem;
   width: 70%;
   margin: 0 auto;
-  background: red;
+  /* background: red; */
   /* color: red; */
   /* margin-left: 1rem; */
 }
-.tech span {
-    /* margin-left: 1rem; */
+.tech span:not(:first-of-type){
+    margin-left: 1rem;
+    background: red;
 }
 /* Desktop view */
 @media (min-width: 800px) {
