@@ -182,7 +182,7 @@ header {
   margin: 0 auto;
   background: gainsboro;
   box-shadow: var(--shadow-elevation-high);
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 .skills__card + .skills__card {
   margin-top: 2rem;
