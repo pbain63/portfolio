@@ -195,6 +195,7 @@ header {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   text-align: center;
+  text-decoration: underline;
   margin-bottom: 1.5rem;
   color: rgb(73, 73, 243);
   /* border: 2px solid blanchedalmond; */
