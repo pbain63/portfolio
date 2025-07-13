@@ -281,7 +281,10 @@ header {
 }
 .tech {
   font-size: 0.55rem;
-  color: red;
+  width: 70%;
+  margin: 0 auto;
+  background: red;
+  /* color: red; */
   /* margin-left: 1rem; */
 }
 .tech span {
