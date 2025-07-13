@@ -282,7 +282,7 @@ header {
   border: 2px solid green;
 }
 .tech {
-  font-size: 0.55rem;
+  /* font-size: 0.55rem; */
   width: 70%;
   margin: 0 auto;
   padding: 1rem 0;
@@ -294,8 +294,10 @@ header {
   /* margin-left: 1rem; */
 }
 .tech span {
+  font-size: 0.65rem;
   background: #00b4d2;
   color: white;
+  font-weight: 900;
   padding: 0.25rem 0.5rem;
   border-radius: 100px;
   white-space: nowrap; /* Prevent breaking inside span */
