@@ -278,7 +278,7 @@ header {
 .project__description {
   width: 80%;
   margin: 0 auto;
-  font-size: 0.87rem;
+  font-size: 0.9rem;
   border: 2px solid green;
 }
 .tech {
