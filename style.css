@@ -277,8 +277,10 @@ header {
 .project__description {
   width: 80%;
   margin: 0 auto;
+  font-size: 0.87rem;
 }
 .tech {
+  font-size: 0.55rem;
   color: red;
   /* margin-left: 1rem; */
 }
