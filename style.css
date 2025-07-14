@@ -377,6 +377,12 @@ header {
   /* background: red; */
   margin-left: 2rem;
 }
+.contact__map-maker__icon, .contact__phone__icon, .contact__email__icon {
+  width: 2rem;
+}
+.contact__social--icons {
+  width: 3rem;
+}
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
