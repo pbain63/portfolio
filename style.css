@@ -378,6 +378,10 @@ header {
   /* background: red; */
   margin-left: 2rem;
 }
+/* Contact section */
+.contact__info {
+
+}
 .contact__container--wrapper {
   background: #00b4d2;
   /* padding: 1rem 0; */
@@ -416,9 +420,8 @@ header {
   /* text-align: center; */
 }
 .contact-image-inside-container {
-  /* display: none; */
-  /* margin: 0; */
-  /* padding: 0; */
+  display: none;
+
 }
 /* Desktop view */
 @media (min-width: 800px) {
