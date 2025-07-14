@@ -377,8 +377,23 @@ header {
   /* background: red; */
   margin-left: 2rem;
 }
-.contact__map-maker__icon, .contact__phone__icon, .contact__email__icon {
+.contact__map-maker__icon,
+.contact__phone__icon,
+.contact__email__icon {
   width: 2rem;
+}
+.contact__address--info,
+.contact__num--info,
+.contact__email--info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact__social--icons {
+  display: flex;
+  gap: 2rem;
+  justify-self: center;
 }
 .contact__social--icons {
   width: 3rem;
