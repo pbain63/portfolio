@@ -358,6 +358,7 @@ header {
 .resume-buttons {
   margin-top: 2rem;
   text-align: center;
+  font-weight: 900;
 }
 .resume-buttons a {
   text-decoration: none;
@@ -377,7 +378,7 @@ header {
   /* background: red; */
   margin-left: 2rem;
 }
-.contact {
+.contact__container--wrapper {
   background: #00b4d2;
   /* padding: 1rem 0; */
   padding-top: 1.5rem;
