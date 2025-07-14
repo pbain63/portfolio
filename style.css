@@ -358,7 +358,6 @@ header {
 .resume-buttons {
   margin-top: 2rem;
   text-align: center;
-  font-weight: 900;
 }
 .resume-buttons a {
   text-decoration: none;
@@ -369,6 +368,7 @@ header {
   border-radius: 100px;
   background: #005fa3;
   color: white;
+  font-weight: 900;
 }
 .resume__btn:hover,
 .resume__btn:focus {
@@ -380,7 +380,6 @@ header {
 }
 /* Contact section */
 .contact__info {
-
 }
 .contact__container--wrapper {
   background: #00b4d2;
@@ -421,7 +420,6 @@ header {
 }
 .contact-image-inside-container {
   display: none;
-
 }
 /* Desktop view */
 @media (min-width: 800px) {
