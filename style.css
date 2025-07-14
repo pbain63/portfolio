@@ -306,8 +306,17 @@ header {
   /* margin-left: 1rem; */
   /* background: red; */
 }
+/* Testimonials */
 .testimonials--content {
-
+  transform: rotateZ(0deg);
+  box-shadow: 2px 5px 5px 2px;
+}
+.testimonials--content:hover {
+  /* object-fit: cover; */
+  /* display: block; */
+  transform: rotate(11deg);
+  transition: transform 0.2s ease-out;
+  box-shadow: none;
 }
 .testimonials--content p {
   border: 2px solid red;
