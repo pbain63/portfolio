@@ -377,6 +377,10 @@ header {
   /* background: red; */
   margin-left: 2rem;
 }
+.contact {
+  background: #00b4d2;
+  padding: 1rem 0;
+}
 .contact__map-maker__icon,
 .contact__phone__icon,
 .contact__email__icon {
@@ -393,10 +397,16 @@ header {
 .contact__social--icons {
   display: flex;
   gap: 2rem;
+  width: 3rem;
+  /* margin: auto; */
   justify-self: center;
+  border: 2px solid red;
 }
 .contact__social--icons {
-  width: 3rem;
+}
+.contact__github--icon,
+.contact__linkedin--icon {
+  /* text-align: center; */
 }
 /* Desktop view */
 @media (min-width: 800px) {
