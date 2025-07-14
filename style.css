@@ -379,7 +379,9 @@ header {
 }
 .contact {
   background: #00b4d2;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
 }
 .contact__map-maker__icon,
 .contact__phone__icon,
