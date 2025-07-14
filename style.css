@@ -408,6 +408,11 @@ header {
 .contact__linkedin--icon {
   /* text-align: center; */
 }
+.contact-image-inside-container {
+  display: none;
+  /* margin: 0; */
+  /* padding: 0; */
+}
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
