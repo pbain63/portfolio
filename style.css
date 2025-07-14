@@ -383,6 +383,9 @@ header {
   padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
+.contact__text {
+  margin-bottom: 1.5rem;
+}
 .contact__map-maker__icon,
 .contact__phone__icon,
 .contact__email__icon {
@@ -402,6 +405,7 @@ header {
   width: 3rem;
   /* margin: auto; */
   justify-self: center;
+  margin-top: 1.5rem;
   border: 2px solid red;
 }
 .contact__social--icons {
