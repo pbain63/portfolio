@@ -335,6 +335,45 @@ header {
   margin-top: 1rem;
   text-align: end;
 }
+/* Resume section */
+.resume--content {
+  padding: 2rem 0;
+  /* transform: scale(1.2) rotateZ(11deg); */
+  /* box-shadow: 2px 5px 5px 2px; */
+}
+.resume--content:hover {
+  /* object-fit: cover; */
+  /* display: block; */
+  /* transform: scale(1.2) rotateZ(11deg); */
+  transform: scale(1.2) rotateZ(0deg);
+  transition: transform 0.2s ease-out;
+  /* box-shadow: none; */
+  box-shadow: 2px 5px 5px 2px;
+}
+.resume--description {
+}
+.resume-buttons {
+  margin-top: 2rem;
+  text-align: center;
+}
+.resume-buttons a {
+  text-decoration: none;
+}
+.resume__btn {
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  border-radius: 100px;
+  background: #005fa3;
+  color: white;
+}
+.resume__btn:hover,
+.resume__btn:focus {
+  opacity: 0.75;
+}
+.resume__btn--view {
+  /* background: red; */
+  margin-left: 2rem;
+}
 /* Desktop view */
 @media (min-width: 800px) {
   .container {
