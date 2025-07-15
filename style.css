@@ -135,13 +135,23 @@ header {
   margin: 1rem 0;
 }
 .about_me__icons {
+  border: 2px solid red;
+  /* background-color: red; */
   /* font-size: 3rem; */
-  width: 2rem;
+  /* width: 2rem; */
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-self: center;
   /* margin: 0 auto; */
   /* align-items: center; */
+}
+.about_me__icons a {
+  /* text-decoration: none; */
+  border: 2px solid blue;
+  width: 2rem;
+}
+.about_me__github__icon,
+.about_me__linkedin__icon {
 }
 /* Skills section */
 .skills,
@@ -433,13 +443,15 @@ header {
 .contact__social--icons {
   display: flex;
   gap: 2rem;
-  width: 3rem;
+  /* width: 3rem; */
   /* margin: auto; */
   justify-self: center;
   margin-top: 1.5rem;
   border: 2px solid red;
 }
-.contact__social--icons {
+.contact__social--icons a {
+  border: 2px solid blue;
+  width: 3rem;
 }
 .contact__github--icon,
 .contact__linkedin--icon {
@@ -447,6 +459,9 @@ header {
 }
 .contact-image-inside-container {
   display: none;
+}
+.about_me__icons {
+  cursor: pointer;
 }
 /* Desktop view */
 @media (min-width: 800px) {
