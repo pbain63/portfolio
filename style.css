@@ -462,6 +462,9 @@ header {
   border: 2px solid blue;
   width: 3rem;
 }
+.contact__num--info {
+  margin: 1rem 0;
+}
 .contact__github--icon,
 .contact__linkedin--icon {
   /* text-align: center; */
