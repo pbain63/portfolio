@@ -148,6 +148,7 @@ header {
 .about_me__icons a {
   /* text-decoration: none; */
   border: 2px solid blue;
+  cursor: pointer;
   width: 2rem;
 }
 .about_me__github__icon,
@@ -282,7 +283,6 @@ header {
   padding: 1rem 0;
 }
 .project__icons {
-  
   display: flex;
   gap: 1rem;
   border: 2px solid red;
@@ -466,8 +466,8 @@ header {
 .contact-image-inside-container {
   display: none;
 }
+
 .about_me__icons {
-  cursor: pointer;
 }
 /* Desktop view */
 @media (min-width: 800px) {
