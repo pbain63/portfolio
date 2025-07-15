@@ -415,6 +415,7 @@ header {
   background: #005fa3;
   color: white;
   font-weight: 900;
+  margin-bottom: 1rem;
 }
 .resume__btn:hover,
 .resume__btn:focus {
