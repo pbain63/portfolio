@@ -478,7 +478,18 @@ header {
 }
 /* Tablet view */
 @media (min-width:500px) {
-
+  .hero__image--content {
+    width: 100%;
+  }
+  .hero__image {
+    width: 220px;
+    height: 200px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: 1rem 1rem 0 0;
+  }
+  
 }
 
 @media (min-width:768px) {
