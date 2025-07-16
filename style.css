@@ -457,7 +457,9 @@ header {
   gap: 2rem;
   /* width: 3rem; */
   /* margin: auto; */
-  justify-self: center;
+  /* justify-self: center; */
+  justify-content: center;
+  align-items: center;
   margin-top: 1.5rem;
   border: 2px solid red;
 }
@@ -548,19 +550,28 @@ header {
   .project__name_and_icons {
     width: 80%;
   }
+}
+@media (min-width: 700px) {
+  /* Contact section*/
   .contact-image-outside-container {
     display: none;
   }
   .contact-image-inside-container {
     border: 2px solid blue;
     display: block;
-
   }
   .contact__row--wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+  }
+  .contact__info h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  .contact__social--icons {
+    justify-content: left;
   }
 }
 
