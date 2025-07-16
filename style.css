@@ -281,6 +281,7 @@ header {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
+  align-items: center;
   width: 70%;
   margin: 0 auto;
   padding: 1rem 0;
@@ -501,9 +502,12 @@ header {
     margin-top: 1rem;
   }
   .hero__title span {
+    /*  Do you want to remove for better UX*/
     display: inline-block;
   }
+  /*  */
   .hero__title {
+    /*  Do you want to remove for better UX*/
     position: relative;
     z-index: 2;
     /* top: 100%; */
@@ -516,10 +520,8 @@ header {
   }
 }
 
-@media (min-width: 768px) {
-}
 /* Desktop view */
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .container {
     /* border: 2px solid yellow; */
     width: 80%;
@@ -552,4 +554,10 @@ header {
   .nav__link:focus {
     font-weight: normal;
   }
+  .project__card--wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
 }
