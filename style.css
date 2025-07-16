@@ -547,6 +547,12 @@ header {
   .project__name_and_icons {
     width: 80%;
   }
+  .contact-image-outside-container {
+    display: none;
+  }
+  .contact-image-inside-container {
+    display: block;
+  }
 }
 
 /* Desktop view */
