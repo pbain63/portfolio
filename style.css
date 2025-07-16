@@ -511,6 +511,9 @@ header {
     /* bottom: 50%; */
     /* left: -90%; */
   }
+  .about_me__icons {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
