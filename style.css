@@ -500,6 +500,7 @@ header {
     z-index: 0;
     background: white;
     margin-top: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   }
   .hero__title span {
     /*  Do you want to remove for better UX*/
