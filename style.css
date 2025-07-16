@@ -560,6 +560,9 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  .skills__card + .skills__card {
+    margin-top: 0;
+  }
   /* Projects section */
   .project__card--wrapper {
     display: grid;
