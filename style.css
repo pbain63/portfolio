@@ -428,6 +428,7 @@ header {
 }
 /* Contact section */
 .contact__info {
+  border: 2px solid blue;
 }
 .contact__container--wrapper {
   background: #00b4d2;
@@ -551,7 +552,15 @@ header {
     display: none;
   }
   .contact-image-inside-container {
+    border: 2px solid blue;
     display: block;
+
+  }
+  .contact__row--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
   }
 }
 
