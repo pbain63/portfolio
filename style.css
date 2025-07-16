@@ -477,7 +477,7 @@ header {
 .about_me__icons {
 }
 /* Tablet view */
-@media (min-width:500px) {
+@media (min-width: 500px) {
   .hero__image--content {
     width: 100%;
   }
@@ -489,11 +489,26 @@ header {
     z-index: 1;
     margin: 1rem 1rem 0 0;
   }
-  
+  .about_me--content {
+    position: relative;
+    z-index: 0;
+    background: white;
+    margin-top: 1rem;
+  }
+  .hero__title span {
+    display: inline-block;
+  }
+  .hero__title {
+    position: relative;
+    z-index: 2;
+    /* top: 100%; */
+    right: 5%;
+    /* bottom: 50%; */
+    /* left: -90%; */
+  }
 }
 
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
 }
 /* Desktop view */
 @media (min-width: 800px) {
