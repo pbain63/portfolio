@@ -559,5 +559,10 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }
-  
+  .project__card + .project__card {
+    margin-top: 0;
+  }
+  .project__name_and_icons {
+    width: 80%;
+  }
 }
