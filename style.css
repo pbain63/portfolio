@@ -478,6 +478,10 @@ header {
 }
 /* Tablet view */
 @media (min-width: 500px) {
+  .background-shape {
+    height: 60%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 59%, 0% 100%); */
+  }
   .hero__image--content {
     width: 100%;
   }
@@ -488,6 +492,7 @@ header {
     position: relative;
     z-index: 1;
     margin: 1rem 1rem 0 0;
+    /* border: 2px solid red; */
   }
   .about_me--content {
     position: relative;
