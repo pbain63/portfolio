@@ -144,7 +144,8 @@ header {
   /* width: 2rem; */
   display: flex;
   gap: 2rem;
-  justify-self: center;
+  justify-content: center;
+  /* justify-self: center; */
   /* margin: 0 auto; */
   /* align-items: center; */
 }
@@ -282,7 +283,8 @@ header {
   gap: 1rem;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 80%;
+
   margin: 0 auto;
   padding: 1rem 0;
 }
@@ -298,14 +300,14 @@ header {
   /* padding: 0; */
 }
 .project__description {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   font-size: 0.9rem;
   border: 2px solid green;
 }
 .tech {
   /* font-size: 0.55rem; */
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 1rem 0;
   display: flex;
@@ -480,6 +482,7 @@ header {
 
 .about_me__icons {
 }
+
 /* Tablet view */
 /* and (max-width: 768px) */
 @media (min-width: 500px) and (max-width: 768px) {
@@ -506,20 +509,17 @@ header {
     margin-top: 1rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   }
-  .hero__title span {
-    /*  Do you want to remove for better UX*/
+  /* .hero__title span {
+
     display: inline-block;
-  }
+  } */
   /*  */
-  .hero__title {
-    /*  Do you want to remove for better UX*/
+  /* .hero__title {
+
     position: relative;
     z-index: 2;
-    /* top: 100%; */
     right: 5%;
-    /* bottom: 50%; */
-    /* left: -90%; */
-  }
+  } */
   .about_me__icons {
     display: none;
   }
@@ -609,6 +609,7 @@ header {
   .nav__link:focus {
     font-weight: normal;
   }
+  
 }
 @media (min-width: 1200px) {
   .contact__info {
