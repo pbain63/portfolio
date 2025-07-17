@@ -614,7 +614,7 @@ header {
   .hero__row--wrapper {
     display: flex;
     /* justify-content: space-between; */
-    align-items: center;
+    /* align-items: center; */
     /* gap: 1rem; */
     position: relative;
     margin-top: 2rem;
