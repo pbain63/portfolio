@@ -364,13 +364,7 @@ header {
   box-shadow: 2px 5px 5px 2px;
   padding: 2rem 0;
 }
-.testimonials--content:hover {
-  /* object-fit: cover; */
-  /* display: block; */
-  transform: rotate(11deg);
-  transition: transform 0.2s ease-out;
-  box-shadow: none;
-}
+
 .testimonials--content p {
   /* border: 2px solid red; */
   /* margin-bottom: 2rem; */
@@ -394,15 +388,7 @@ header {
   /* transform: scale(1.2) rotateZ(11deg); */
   /* box-shadow: 2px 5px 5px 2px; */
 }
-.resume--content:hover {
-  /* object-fit: cover; */
-  /* display: block; */
-  /* transform: scale(1.2) rotateZ(11deg); */
-  transform: scale(1.2) rotateZ(0deg);
-  transition: transform 0.2s ease-out;
-  /* box-shadow: none; */
-  box-shadow: 2px 5px 5px 2px;
-}
+
 .resume--description {
 }
 .resume-buttons {
@@ -666,6 +652,22 @@ header {
   }
   .project__name_and_icons {
     width: 85%;
+  }
+  .testimonials--content:hover {
+    /* object-fit: cover; */
+    /* display: block; */
+    transform: rotate(11deg);
+    transition: transform 0.2s ease-out;
+    box-shadow: none;
+  }
+  .resume--content:hover {
+    /* object-fit: cover; */
+    /* display: block; */
+    /* transform: scale(1.2) rotateZ(11deg); */
+    transform: scale(1.2) rotateZ(0deg);
+    transition: transform 0.2s ease-out;
+    /* box-shadow: none; */
+    box-shadow: 2px 5px 5px 2px;
   }
 }
 @media (min-width: 1200px) {
