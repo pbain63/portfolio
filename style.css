@@ -28,7 +28,7 @@ header {
   padding: 1rem 0;
 }
 .container {
-  border: 2px solid yellow;
+  /* border: 2px solid green; */
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -90,7 +90,7 @@ header {
 .hero {
   position: relative;
   overflow: hidden;
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
 }
 .background-shape {
   position: absolute;
@@ -138,7 +138,7 @@ header {
   margin: 1rem 0;
 }
 .about_me__icons {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* background-color: red; */
   /* font-size: 3rem; */
   /* width: 2rem; */
@@ -151,7 +151,7 @@ header {
 }
 .about_me__icons a {
   /* text-decoration: none; */
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   cursor: pointer;
   width: 2rem;
 }
@@ -252,10 +252,10 @@ header {
   font-family: "Playfair Display", serif;
 }
 .project__card--wrapper {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .project__card {
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   /* max-width: 800px; */
   border-radius: 8px;
   overflow: hidden;
@@ -271,14 +271,14 @@ header {
 }
 
 .project__screenshoot {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 .project__name_and_icons {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -291,11 +291,11 @@ header {
 .project__icons {
   display: flex;
   gap: 1rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .project__icons a {
   width: 1.7rem;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   /* margin: 0; */
   /* padding: 0; */
 }
@@ -303,7 +303,7 @@ header {
   width: 85%;
   margin: 0 auto;
   font-size: 0.9rem;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .tech {
   /* font-size: 0.55rem; */
@@ -371,11 +371,11 @@ header {
   box-shadow: none;
 }
 .testimonials--content p {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* margin-bottom: 2rem; */
 }
 .testimonials--content .quote {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 3rem;
   /* color: red; */
   font-style: italic;
@@ -430,7 +430,7 @@ header {
 }
 /* Contact section */
 .contact__info {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .contact__container--wrapper {
   background: #00b4d2;
@@ -463,10 +463,10 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 1.5rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .contact__social--icons a {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 3rem;
 }
 .contact__num--info {
