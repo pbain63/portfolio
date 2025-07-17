@@ -479,7 +479,7 @@ header {
 
 /* Tablet view */
 /* and (max-width: 768px) */
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 1024px) {
   .background-shape {
     height: 60%;
     /* clip-path: polygon(0 0, 100% 0, 100% 59%, 0% 100%); */
@@ -574,7 +574,7 @@ header {
 }
 
 /* Desktop view */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .container {
     /* border: 2px solid yellow; */
     width: 80%;
