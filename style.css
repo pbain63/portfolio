@@ -71,6 +71,7 @@ header {
   flex-direction: column;
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
+  overflow-y: auto;
 }
 .nav__list.nav--visible {
   display: flex;
