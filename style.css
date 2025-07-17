@@ -71,7 +71,7 @@ header {
   flex-direction: column;
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
-  max-height: 75vh;
+  max-height: 70vh;
   overflow-y: auto;
 }
 .nav__list.nav--visible {
