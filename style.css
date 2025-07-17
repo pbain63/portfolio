@@ -485,7 +485,7 @@ header {
 
 /* Tablet view */
 /* and (max-width: 768px) */
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px)  {
   .background-shape {
     height: 60%;
     /* clip-path: polygon(0 0, 100% 0, 100% 59%, 0% 100%); */
@@ -548,11 +548,12 @@ header {
     margin-top: 0;
   }
   .project__name_and_icons {
-    width: 80%;
+    width: 85%;
   }
+
 }
 @media (min-width: 700px) {
-  /* Contact section*/
+  /* Contact section */
   .contact-image-outside-container {
     display: none;
   }
@@ -640,6 +641,26 @@ header {
     /* right: 12%; */
     /* font-size: 3rem; */
     display: none;
+  }
+  .skills__card--wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  .skills__card + .skills__card {
+    margin-top: 0;
+  }
+  /* Projects section */
+  .project__card--wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .project__card + .project__card {
+    margin-top: 0;
+  }
+  .project__name_and_icons {
+    width: 85%;
   }
 }
 @media (min-width: 1200px) {
