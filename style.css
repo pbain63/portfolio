@@ -497,8 +497,8 @@ header {
   }
   .hero__image {
     width: 220px;
-    height: 200px;
-    float: left;
+    /* height: 200px; */
+    float:left;
     position: relative;
     z-index: 1;
     margin-right: 1rem;
