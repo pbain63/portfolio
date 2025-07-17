@@ -263,7 +263,7 @@ header {
   /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
 }
 .project__card + .project__card {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 .project-image {
   width: 100%;
