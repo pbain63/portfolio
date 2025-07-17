@@ -558,7 +558,7 @@ header {
     display: none;
   }
   .contact-image-inside-container {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: block;
   }
   .contact__row--wrapper {
