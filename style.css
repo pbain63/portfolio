@@ -259,7 +259,8 @@ header {
   /* max-width: 800px; */
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
 }
 .project__card + .project__card {
   margin-top: 2rem;
@@ -507,7 +508,8 @@ header {
     z-index: 0;
     background: white;
     margin-top: 1rem;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
   }
   /* .hero__title span {
 
@@ -627,7 +629,8 @@ header {
   .about_me--content {
     background: white;
     padding: 0 2rem 2rem 2rem;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
   }
   .hero__image {
     /* border-radius: 0; */
