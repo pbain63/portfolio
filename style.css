@@ -400,12 +400,18 @@ header {
 }
 .resume-buttons {
   margin-top: 2rem;
-  text-align: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* text-align: center; */
 }
 .resume-buttons a {
   text-decoration: none;
 }
 .resume__btn {
+  display: inline-block;
   cursor: pointer;
   padding: 0.8rem 1rem;
   border-radius: 100px;
@@ -420,7 +426,7 @@ header {
 }
 .resume__btn--view {
   /* background: red; */
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 /* Contact section */
 .contact__info {
