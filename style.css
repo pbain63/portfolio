@@ -292,7 +292,7 @@ body.dark-mode .about_me__github__icon,
 }
 
 .project__screenshoot {
-  /* border: 2px solid red; */
+  border: 2px solid #005fa3;
   width: 100%;
   height: 100%;
   object-fit: cover;
