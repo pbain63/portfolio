@@ -86,7 +86,7 @@ header {
   flex-direction: column;
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
-  max-height: 65vh; /* if display height small */
+  max-height: 60vh; /* if display height small e.g. landscape */
   overflow-y: auto;
 }
 .nav__list.nav--visible {
