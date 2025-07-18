@@ -42,6 +42,21 @@ header {
   font-size: 1.5rem;
   font-weight: 700;
 }
+/*  */
+/* Toggle (dark mode) button */
+#themeToggle {
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 2px 9px;
+  transition: opacity 0.3s ease;
+}
+#themeToggle:hover {
+  opacity: 0.75;
+}
+/*  */
 .nav-toggle {
   background: none;
   border: none;
@@ -58,7 +73,7 @@ header {
   font-size: 1.125rem;
 }
 .nav__list {
-  border: 2px solid #005fa3;
+  /* border: 2px solid #005fa3; */
   padding: 0;
   margin: 0;
   list-style: none;
@@ -71,7 +86,7 @@ header {
   flex-direction: column;
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
-  max-height: 65vh;
+  max-height: 65vh; /* if display height small */
   overflow-y: auto;
 }
 .nav__list.nav--visible {
@@ -147,6 +162,7 @@ header {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  margin-top: 2rem;
   /* justify-self: center; */
   /* margin: 0 auto; */
   /* align-items: center; */
@@ -157,8 +173,10 @@ header {
   cursor: pointer;
   width: 2rem;
 }
-.about_me__github__icon,
-.about_me__linkedin__icon {
+body.dark-mode .about_me__github__icon,
+.about_me__linkedin__icon,
+.skills__items__icon {
+  /* background: #00b4d2; */
 }
 /* Skills section */
 .skills,
@@ -486,7 +504,7 @@ header {
 }
 /* Back to top button */
 #backToTopBtn {
-  display: none;  /* hidden by default */
+  display: none; /* hidden by default */
   position: fixed;
   bottom: 40px;
   right: 30px;
@@ -500,10 +518,10 @@ header {
   cursor: pointer;
   opacity: 0.7;
   transition: opacity 0.3s ease;
-  }
-  #backToTopBtn:hover {
-    opacity: 1;
-  }
+}
+#backToTopBtn:hover {
+  opacity: 1;
+}
 /* Tablet view */
 /* and (max-width: 768px) */
 @media (min-width: 500px) and (max-width: 1024px) {
@@ -650,7 +668,9 @@ header {
   }
   .about_me--content {
     background: white;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 2rem 0rem 2rem;
+    /* margin-bottom: 2rem; */
+    /* margin: 0 2rem 2rem 2rem; */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
   }
@@ -659,6 +679,8 @@ header {
   }
   .about_me__icons {
     justify-content: right;
+    margin-top: 2rem;
+    /* padding-bottom: 2rem; */
   }
   .hero__title span {
     /* display: inline-block; */
@@ -718,3 +740,4 @@ header {
   }
 }
 
+/* Dark mode set to page*/
