@@ -2,15 +2,19 @@
 
 ## [Live Demo](https://pbain63.github.io/Project_Homepage)
 
+---
+
 ## Overview
 
-This is a personal developer portfolio website designed and built with HTML5, CSS3, JavaScript and responsive design principles. It serves as a digital resume and showcase of skills, projects, and contact information.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a web developer. It is fully responsive, designed with HTML, CSS, and JavaScript, and hosted on GitHub Pages.
 
 This portfolio helps you:
 
 - Present my skills and feature projects professionally
 - Highlight my projects visually
 - Attract potential clients or employers
+
+---
 
 ## Sections Included
 
@@ -21,19 +25,36 @@ This portfolio helps you:
 - **Resume** — link to download or view my CV
 - **Contact** — email link and social profiles
 
+---
+
+## Features
+
+- **Responsive Design** — Optimized for desktop, tablet, and mobile devices
+- **Smooth Navigation** — Includes About, Skills, Projects, Testimonials, Resume, and Contact sections
+- **Mobile Hamburger Menu** — Simplified navigation for smaller screens
+- **Testimonials Section** — Placeholder for future client reviews
+- **Downloadable Resume** — Linked to resume
+- **Contact Form** — Built with a simple HTML form (form functionality coming soon)
+
+---
+
 ## Technologies Used
 
 - **HTML5** — structured, semantic markup
 - **CSS3** — modern styling with responsiveness
-- **JavaSCript** — toggle hamburger menu
+- **JavaSCript** — toggle hamburger menu, dark mode, and back to top button
 - **Media Queries** — tablet and mobile-friendly layout
 - **Git & GitHub** — version control and hosting
+
+---
 
 ## Screenshots
 
 | Desktop View                               | Mobile View                              | Tablet view                              |
 | ------------------------------------------ | ---------------------------------------- | ---------------------------------------- |
 | ![Desktop](assets/screenshots/desktop.png) | ![Mobile](assets/screenshots/mobile.png) | ![Tablet](assets/screenshots/mobile.png) |
+
+---
 
 ## Responsive Design
 
@@ -42,12 +63,29 @@ This portfolio helps you:
 - Clean spacing and hierarchy
 - Scroll behavior and adaptive images
 
+---
+
+## Lessons Learned
+
+- Toggle hamburger menu properly with landscape view
+
+- Toggle dark mode, adjust colors of the page
+
+- Back to top button functionality and positioning
+
+---
+
 ## Future Improvements
 
-- Add animations or transitions
-- Integrate contact form with backend or third-party API (like Formspree)
-- Add light/dark mode toggle
-- Implement with React or another frontend framework
+- Connect contact form to Formspree or Netlify Forms.
+
+- Add real testimonials from clients or collaborators.
+
+- Refine UI with better fonts and color palette.
+
+- Link more real-world projects and case studies.
+
+---
 
 ## Getting Started
 
@@ -69,6 +107,8 @@ If you fork this repo:
 - Select the `main` branch and root folder (`/`)
 - GitHub will deploy your site in a few seconds
 
+---
+
 ## Contributing
 
 Contributions are welcome! Here’s how:
@@ -78,6 +118,18 @@ Contributions are welcome! Here’s how:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+---
+
+## Connect With Me
+
+LinkedIn: linkedin.com/in/prodipbain
+
+GitHub: github.com/pbain63
+
+Email: prodipbain63@gmail.com
+
+---
 
 ## License
 
