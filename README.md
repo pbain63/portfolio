@@ -123,9 +123,9 @@ Contributions are welcome! Here’s how:
 
 ## Connect With Me
 
-LinkedIn: linkedin.com/in/prodipbain
+LinkedIn: https://www.linkedin.com/in/prodipbain
 
-GitHub: github.com/pbain63
+GitHub: [GitHub](https://github.com/pbain63)
 
 Email: prodipbain63@gmail.com
 
