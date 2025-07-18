@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-## [Live Demo](https://pbain63.github.io/Project_Homepage)
+## [Live Demo](https://pbain63.github.io/portfolio)
 
 ---
 
