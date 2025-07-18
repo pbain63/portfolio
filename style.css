@@ -787,14 +787,18 @@ body.dark-mode .about_me--content {
   background-color: transparent;
   color: #f1f1f1;
 }
+
 body.dark-mode .about_me__github__icon,
 body.dark-mode .about_me__linkedin__icon,
-body.dark-mode .skills__items__icon,
 body.dark-mode .project__github__icon,
 body.dark-mode .project__open-in-new__icon {
+  background: #279df1;
+}
+
+/* Skills Section */
+body.dark-mode .skills__items__icon {
   background: #00b4d2;
 }
-/* Skills Section */
 body.dark-mode .skills__card {
   background-color: #1f1f1f;
   border: 1px solid #333;
