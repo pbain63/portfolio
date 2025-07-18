@@ -381,7 +381,7 @@ body.dark-mode .about_me__github__icon,
   transform: translateY(-25%);
   background-size: cover;
   background-position: center;
-  opacity: 0.20;
+  opacity: 0.2;
   pointer-events: none;
 }
 
@@ -810,7 +810,7 @@ body.dark-mode .skills__title {
 
 /* Projects Section */
 body.dark-mode .project__card {
-  background-color: #1c1c1c;
+  background-color: #1f1f1f;
   border-color: #333;
 }
 
