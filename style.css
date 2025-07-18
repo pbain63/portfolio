@@ -741,3 +741,123 @@ body.dark-mode .about_me__github__icon,
 }
 
 /* Dark mode set to page*/
+/*  DARK MODE GLOBAL  */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Global transition for all elements */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Dark toggle button */
+body.dark-mode #themeToggle {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #444;
+}
+/* Header and Navigation */
+body.dark-mode header,
+body.dark-mode .nav__list,
+body.dark-mode .nav__link {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .nav__link {
+  background-color: #555;
+  color: #f1f1f1;
+}
+
+body.dark-mode .nav__link:hover {
+  color: #ffd369;
+}
+body.dark-mode .nav__link + body.dark-mode .nav__link {
+  /* margin-top: 0.15rem; */
+  /* background: red; */
+}
+/* Hero Section */
+body.dark-mode .hero {
+  background-color: #1a1a1a;
+}
+
+/* About Me Section */
+body.dark-mode .about_me--content {
+  background-color: transparent;
+  color: #f1f1f1;
+}
+body.dark-mode .about_me__github__icon,
+body.dark-mode .about_me__linkedin__icon,
+body.dark-mode .skills__items__icon,
+body.dark-mode .project__github__icon,
+body.dark-mode .project__open-in-new__icon {
+  background: #00b4d2;
+}
+/* Skills Section */
+body.dark-mode .skills__card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+}
+
+body.dark-mode .skills__title {
+  color: #fafafa;
+}
+
+/* Projects Section */
+body.dark-mode .project__card {
+  background-color: #1c1c1c;
+  border-color: #333;
+}
+
+body.dark-mode .project__description {
+  color: #ccc;
+}
+
+/* Testimonials Section */
+body.dark-mode .testimonials {
+  background-color: #1b1b1b;
+  color: #eee;
+}
+
+/* Resume Section */
+body.dark-mode .resume {
+  background-color: #181818;
+  color: #eee;
+}
+
+body.dark-mode .resume__btn {
+  background-color: #279df1;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark-mode .resume__btn:hover {
+  /* background-color: #0885e4; */
+  /* opacity: 0.75; */
+}
+
+/* Contact Section */
+body.dark-mode .contact {
+  background-color: #151515;
+  color: #f1f1f1;
+}
+
+/* Footer */
+body.dark-mode footer {
+  /* background-color: #111; */
+  /* color: #ccc; */
+}
+
+/* Back to Top Button */
+body.dark-mode #backToTopBtn {
+  background-color: #fff;
+  color: #333;
+}
+/*  */
+@media (min-width: 1024px) {
+  body.dark-mode .nav__link {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+}
