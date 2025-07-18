@@ -9,23 +9,15 @@ navToggle.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", isOpen);
 });
 
-// Accessibility: allow Enter/Space to toggle menu
-// navToggle.addEventListener("keydown", (e) => {
-//   if (e.key === "Enter" || e.key === " ") {
-//     e.preventDefault();
-//     navToggle.click();
+// Reset menu when resizing to desktop layout
+// window.addEventListener("resize", () => {
+//   if (window.innerWidth >= 700) {
+//     navList.classList.remove("nav--visible");
+//     navToggle.textContent = "☰";
+//     navToggle.setAttribute("aria-expanded", false);
+//     isOpen = false;
 //   }
 // });
-
-// Reset menu when resizing to desktop layout
-window.addEventListener("resize", () => {
-  if (window.innerWidth >= 700) {
-    navList.classList.remove("nav--visible");
-    navToggle.textContent = "☰";
-    navToggle.setAttribute("aria-expanded", false);
-    isOpen = false;
-  }
-});
 
 //// Back to Top button
 const backToTopBtn = document.getElementById("backToTopBtn");
@@ -46,4 +38,22 @@ backToTopBtn.addEventListener("click", function () {
     top: 0,
     behavior: "smooth",
   });
+});
+
+// Toggle dark mode button
+
+const themeToggle = document.getElementById("themeToggle");
+const body = document.body;
+
+// Load saved mode if exists
+if (localStorage.getItem("theme") === "dark") {
+  body.classList.add("dark-mode");
+  themeToggle.textContent = "🌞";
+}
+
+themeToggle.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+  const isDark = body.classList.contains("dark-mode");
+  themeToggle.textContent = isDark ? "🌞" : "🌙";
+  localStorage.setItem("theme", isDark ? "dark" : "light");
 });
