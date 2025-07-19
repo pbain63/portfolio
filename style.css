@@ -409,6 +409,12 @@ body.dark-mode .about_me__github__icon,
   margin-top: 1rem;
   text-align: end;
 }
+.coming-soon {
+  text-align: center;
+  color: #555;
+  margin-top: 2rem;
+  font-style: italic;
+}
 /* Resume section */
 .resume--content {
   padding: 2rem 0;
@@ -764,7 +770,6 @@ body.dark-mode .nav__list,
 body.dark-mode .nav__link {
   /* background-color: #1e1e1e; */
   background-color: #444;
-  
 }
 
 body.dark-mode .nav__link {
