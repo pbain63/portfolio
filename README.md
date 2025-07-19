@@ -50,9 +50,9 @@ This portfolio helps you:
 
 ## Screenshots
 
-| Desktop View                               | Mobile View                              | Tablet view                              |
-| ------------------------------------------ | ---------------------------------------- | ---------------------------------------- |
-| ![Desktop](assets/screenshots/desktop.png) | ![Mobile](assets/screenshots/mobile.png) | ![Tablet](assets/screenshots/mobile.png) |
+| Desktop View                               | Tablet View                              | Mobile View                              | Desktop Dark Mode View  |
+| ------------------------------------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| ![Desktop](assets/screenshots/desktop.jpg) | ![Mobile](assets/screenshots/tablet.jpg) | ![Tablet](assets/screenshots/mobile.jpg) | ![Desktop-dark-mode](assets/screenshots/desktop-dark.jpg)
 
 ---
 
