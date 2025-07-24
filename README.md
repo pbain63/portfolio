@@ -121,6 +121,22 @@ Contributions are welcome! Here’s how:
 
 ---
 
+## Images Used
+
+- **Middle Section Background**  
+  Artwork: _Fallen Angel_  
+  Source: Collected from the internet  
+  Artist: Unknown  
+  Copyright: Unknown
+
+- **Footer Section Image**  
+  Artwork: _The Fallen Angel (painting)_  
+  Artist: Alexandre Cabanel (1823–1889)  
+  Source: [Wikipedia](<https://en.wikipedia.org/wiki/The_Fallen_Angel_(painting)#/media/File:Fallen_Angel_(Alexandre_Cabanel)_crop.jpg>)  
+  License: Public Domain
+
+---
+
 ## Connect With Me
 
 LinkedIn: https://www.linkedin.com/in/prodipbain
