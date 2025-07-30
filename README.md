@@ -130,7 +130,7 @@ Contributions are welcome! Here’s how:
   Copyright: Unknown
 
 - **Footer Section Image**  
-  Artwork: _The Fallen Angel (painting)_  
+  Artwork: _The Fallen Angel (painting)(1847)_  
   Artist: Alexandre Cabanel (1823–1889)  
   Source: [Wikipedia](<https://en.wikipedia.org/wiki/The_Fallen_Angel_(painting)#/media/File:Fallen_Angel_(Alexandre_Cabanel)_crop.jpg>)  
   License: Public Domain
