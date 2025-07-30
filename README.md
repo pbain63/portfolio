@@ -52,7 +52,7 @@ This portfolio helps you:
 
 | Desktop View                                         | Tablet View                                        | Mobile View                                        | Desktop Dark Mode View                                              |
 | ---------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------- |
-| ![Desktop](assets/screenshots/portfolio-desktop.jpg) | ![Mobile](assets/screenshots/portfolio-tablet.jpg) | ![Tablet](assets/screenshots/portfolio-mobile.jpg) | ![Desktop-dark-mode](assets/screenshots/portfolio-desktop-dark.jpg) |
+| ![Desktop](assets/screenshots/portfolio-desktop.jpg) | ![Tablet](assets/screenshots/portfolio-tablet.jpg) | ![Mobile](assets/screenshots/portfolio-mobile.jpg) | ![Desktop-dark-mode](assets/screenshots/portfolio-desktop-dark.jpg) |
 
 ---
 
