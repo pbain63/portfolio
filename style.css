@@ -696,6 +696,7 @@ body.dark-mode .nav__list,
 body.dark-mode .nav__link {
   /* background-color: #1e1e1e; */
   background-color: #444;
+  border: none;
 }
 
 body.dark-mode .nav__link {
