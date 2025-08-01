@@ -588,6 +588,7 @@ header {
     max-width: none;
     width: auto;
     gap: 2rem;
+    border: none;
   }
   .nav__link {
     padding: 0;
