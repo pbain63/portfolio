@@ -290,10 +290,7 @@ header {
   border-radius: 100px;
   white-space: nowrap; /* Prevent breaking inside span */
 }
-.tech span:not(:first-of-type) {
-  /* margin-left: 1rem; */
-  /* background: red; */
-}
+
 /* Testimonials */
 /* Testimonials, resume background-image */
 .testimonials,
@@ -329,7 +326,6 @@ header {
 
 /*  */
 .testimonials--content {
-  /* transform: rotateZ(0deg); */
   box-shadow: 2px 5px 5px 2px;
   padding: 2rem 0;
 }
@@ -353,7 +349,6 @@ header {
 /* Resume section */
 .resume--content {
   padding: 2rem 0;
-  /* transform: scale(1.2) rotateZ(11deg); */
   box-shadow: 2px 5px 5px 2px;
 }
 
@@ -448,7 +443,6 @@ header {
 @media (min-width: 500px) and (max-width: 1024px) {
   .background-shape {
     height: 60%;
-    /* clip-path: polygon(0 0, 100% 0, 100% 59%, 0% 100%); */
   }
   .hero__image--content {
     width: 100%;
@@ -467,7 +461,6 @@ header {
     margin-top: 1rem;
     padding: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
   }
 
   .hero__title {
@@ -644,7 +637,6 @@ body.dark-mode #themeToggle {
 body.dark-mode header,
 body.dark-mode .nav__list,
 body.dark-mode .nav__link {
-  /* background-color: #1e1e1e; */
   background-color: #444;
   border: none;
 }
