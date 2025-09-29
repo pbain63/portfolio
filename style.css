@@ -298,6 +298,7 @@ header {
   position: relative;
   z-index: 1;
 }
+
 .testimonials--content,
 .resume--content {
   position: relative;
@@ -346,6 +347,10 @@ header {
   margin-top: 2rem;
   font-style: italic;
 }
+.testimonials--content:hover {
+  box-shadow: var(--shadow-elevation-high);
+}
+
 /* Resume section */
 .resume--content {
   padding: 2rem 0;
