@@ -430,10 +430,10 @@ header {
 #backToTopBtn {
   display: none; /* hidden by default */
   position: fixed;
-  bottom: 40px;
-  right: 30px;
+  bottom: 2.5rem;
+  right: 1.875rem;
   z-index: 99;
-  font-size: 24px;
+  font-size: 1.5rem;
   background: #333;
   color: white;
   border: none;
