@@ -11,7 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* font-family: "Playfair Display", serif; */
   font-family: "Roboto", sans-serif;
 }
 img {
@@ -27,7 +26,6 @@ header {
   padding: 1rem 0;
 }
 .container {
-  /* border: 2px solid green; */
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -97,8 +95,6 @@ header {
 }
 .nav__link:hover,
 .nav__link:focus {
-  /* background-color: #e4b363; */
-  /* color: #464655; */
   opacity: 0.75;
   font-weight: 700;
 }
@@ -106,7 +102,6 @@ header {
 .hero {
   position: relative;
   overflow: hidden;
-  /* border: 2px solid blueviolet; */
 }
 .background-shape {
   position: absolute;
@@ -131,9 +126,7 @@ header {
 }
 .hero__title {
   font-family: "Playfair Display", serif;
-  /* font-size: 2rem; */
   font-weight: 900;
-  /* line-height: 2; */
   color: white;
   position: absolute;
   z-index: 2;
@@ -154,14 +147,12 @@ header {
   margin: 1rem 0;
 }
 .about_me__icons {
-  /* border: 2px solid red; */
   display: flex;
   gap: 2rem;
   justify-content: center;
   margin-top: 2rem;
 }
 .about_me__icons a {
-  /* border: 2px solid blue; */
   cursor: pointer;
   width: 2rem;
 }
@@ -180,7 +171,6 @@ header {
   font-weight: 700;
   text-align: center;
   margin-bottom: 4rem;
-  /* border: 2px solid blue; */
 }
 :root {
   --shadow-color: 221deg 63% 42%;
@@ -218,14 +208,11 @@ header {
   text-decoration: underline;
   margin-bottom: 1.5rem;
   color: rgb(73, 73, 243);
-  /* border: 2px solid blanchedalmond; */
 }
 .skills__items--container {
-  /* border: 2px solid blue; */
   margin-left: 3rem;
 }
 .skills__items {
-  /* border: 2px solid red; */
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -241,11 +228,8 @@ header {
 .project__name {
   font-family: "Playfair Display", serif;
 }
-.project__card--wrapper {
-  /* border: 2px solid blue; */
-}
+
 .project__card {
-  /* border: 2px solid blueviolet; */
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -267,7 +251,6 @@ header {
   display: block;
 }
 .project__name_and_icons {
-  /* border: 2px solid red; */
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -280,17 +263,14 @@ header {
 .project__icons {
   display: flex;
   gap: 1rem;
-  /* border: 2px solid red; */
 }
 .project__icons a {
   width: 1.7rem;
-  /* border: 2px solid green; */
 }
 .project__description {
   width: 85%;
   margin: 0 auto;
   font-size: 0.9rem;
-  /* border: 2px solid green; */
 }
 .tech {
   /* font-size: 0.55rem; */
@@ -354,11 +334,7 @@ header {
   padding: 2rem 0;
 }
 
-.testimonials--content p {
-  /* border: 2px solid red; */
-}
 .testimonials--content .quote {
-  /* border: 2px solid red; */
   margin-top: 3rem;
   font-style: italic;
 }
@@ -407,9 +383,6 @@ header {
 }
 
 /* Contact section */
-.contact__info {
-  /* border: 2px solid blue; */
-}
 .contact__container--wrapper {
   background: #00b4d2;
 
@@ -438,10 +411,8 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 1.5rem;
-  /* border: 2px solid red; */
 }
 .contact__social--icons a {
-  /* border: 2px solid blue; */
   width: 3rem;
 }
 .contact__num--info {
@@ -488,7 +459,6 @@ header {
     position: relative;
     z-index: 1;
     margin-right: 1rem;
-    /* border: 2px solid red; */
   }
   .about_me--content {
     position: relative;
@@ -499,17 +469,7 @@ header {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
   }
-  /* .hero__title span {
 
-    display: inline-block;
-  } */
-  /*  */
-  /* .hero__title {
-
-    position: relative;
-    z-index: 2;
-    right: 5%;
-  } */
   .hero__title {
     display: none;
   }
@@ -546,7 +506,6 @@ header {
     display: none;
   }
   .contact-image-inside-container {
-    /* border: 2px solid blue; */
     display: block;
   }
   .contact__row--wrapper {
@@ -567,7 +526,6 @@ header {
 /* Desktop view */
 @media (min-width: 1024px) {
   .container {
-    /* border: 2px solid yellow; */
     width: 80%;
   }
   .row {
@@ -589,8 +547,6 @@ header {
   .nav__link {
     padding: 0;
     margin: 0;
-
-    /* border: 2px solid red; */
   }
   .nav__item + .nav__item {
     margin: 0;
@@ -620,9 +576,6 @@ header {
   .about_me__icons {
     justify-content: right;
     margin-top: 2rem;
-  }
-  .hero__title span {
-    /* display: inline-block; */
   }
 
   .hero__title {
