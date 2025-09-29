@@ -381,6 +381,9 @@ header {
 .resume__btn:focus {
   opacity: 0.75;
 }
+.resume--content:hover {
+  box-shadow: var(--shadow-elevation-high);
+}
 
 /* Contact section */
 .contact__container--wrapper {
