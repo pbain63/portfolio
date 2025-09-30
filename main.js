@@ -9,16 +9,6 @@ navToggle.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", isOpen);
 });
 
-// Reset menu when resizing to desktop layout
-// window.addEventListener("resize", () => {
-//   if (window.innerWidth >= 700) {
-//     navList.classList.remove("nav--visible");
-//     navToggle.textContent = "☰";
-//     navToggle.setAttribute("aria-expanded", false);
-//     isOpen = false;
-//   }
-// });
-
 //// Back to Top button
 const backToTopBtn = document.getElementById("backToTopBtn");
 
