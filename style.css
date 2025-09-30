@@ -134,7 +134,7 @@ header {
   right: 2%;
 }
 .hero__title span {
-  display: block;
+  /* display: block; */
 }
 .about_me--heading {
   font-size: 2.5rem;
