@@ -248,7 +248,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  display: block;   /*       */
 }
 .project__name_and_icons {
   display: flex;
@@ -256,7 +256,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-
   margin: 0 auto;
   padding: 1rem 0;
 }
@@ -273,12 +272,12 @@ header {
   font-size: 0.9rem;
 }
 .tech {
-  /* font-size: 0.55rem; */
   width: 80%;
   margin: 0 auto;
   padding: 1rem 0;
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping */
+  /* Allow wrapping */
+  flex-wrap: wrap; 
   gap: 0.5rem;
 }
 .tech span {
@@ -288,7 +287,8 @@ header {
   font-weight: 900;
   padding: 0.25rem 0.5rem;
   border-radius: 100px;
-  white-space: nowrap; /* Prevent breaking inside span */
+  /* Prevent breaking inside span */
+  /* white-space: nowrap;  */
 }
 
 /* Testimonials */
