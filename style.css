@@ -299,12 +299,6 @@ header {
   z-index: 1;
 }
 
-/* .testimonials--content,
-.resume--content {
-  position: relative;
-  z-index: 2;
-  padding: 0 2rem;
-} */
 .testimonials__text--wrapper,
 .resume__text--wrapper {
   width: 80%;
@@ -388,7 +382,6 @@ header {
 /* Contact section */
 .contact__container--wrapper {
   background: #00b4d2;
-
   padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
