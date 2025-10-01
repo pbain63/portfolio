@@ -248,7 +248,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;   /*       */
+  display: block; /*       */
 }
 .project__name_and_icons {
   display: flex;
@@ -277,7 +277,7 @@ header {
   padding: 1rem 0;
   display: flex;
   /* Allow wrapping */
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 0.5rem;
 }
 .tech span {
@@ -308,7 +308,7 @@ header {
   background-image: url("./assets/images/fallen-angel_art-work.jpg");
   position: absolute;
   width: 100%;
-  height:52rem;
+  height: 52rem;
   top: 45%;
   left: 0%;
   z-index: 0;
@@ -440,13 +440,13 @@ header {
   opacity: 1;
 }
 /* Tablet view */
-/* and (max-width: 768px) */
+
 @media (min-width: 500px) and (max-width: 1024px) {
   .background-shape {
     height: 60%;
   }
   .hero__image--content {
-    width: 100%;
+    /* width: 100%; */
   }
   .hero__image {
     width: 220px;
