@@ -236,6 +236,7 @@ header {
   width: 2rem;
 }
 
+
 /* Projects section */
 .project__card--wrapper {
   display: grid;
@@ -500,9 +501,9 @@ header {
   .project__card + .project__card {
     margin-top: 0;
   }
-  .project__name_and_icons {
+  /* .project__name_and_icons {
     width: 85%;
-  }
+  } */
 }
 @media (min-width: 700px) {
   /* Contact section */
