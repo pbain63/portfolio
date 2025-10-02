@@ -136,6 +136,13 @@ header {
 .hero__title span {
   /* display: block; */
 }
+
+.about_me--content {
+  background: whitesmoke;
+  padding: 0 2rem 0rem 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
+}
 .about_me--heading {
   font-size: 2.5rem;
   font-family: "Playfair Display", serif;
