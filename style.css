@@ -589,9 +589,9 @@ header {
   .project__card + .project__card {
     margin-top: 0;
   }
-  .project__name_and_icons {
+  /* .project__name_and_icons {
     width: 85%;
-  }
+  } */
   .testimonials--content:hover {
     box-shadow: none;
   }
