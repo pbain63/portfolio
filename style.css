@@ -133,9 +133,6 @@ header {
   bottom: 2%;
   right: 2%;
 }
-.hero__title span {
-  /* display: block; */
-}
 
 .about_me--content {
   background: whitesmoke;
@@ -305,8 +302,6 @@ header {
   font-weight: 900;
   padding: 0.25rem 0.5rem;
   border-radius: 100px;
-  /* Prevent breaking inside span */
-  /* white-space: nowrap;  */
 }
 
 /* Testimonials */
