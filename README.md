@@ -124,7 +124,7 @@ Contributions are welcome! Here’s how:
 
 ## Images Used
 
-- **Middle Section Background**  
+- **Middle Section Background Image**  
   Artwork: _Fallen Angel_  
   Source: Collected from the internet  
   Artist: Unknown  
