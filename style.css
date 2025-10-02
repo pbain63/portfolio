@@ -623,11 +623,11 @@ header {
     /* box-shadow: 2px 5px 5px 2px; */
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .contact__info {
     align-self: flex-start;
   }
-}
+} */
 
 /* Dark mode set to page*/
 /*  DARK MODE GLOBAL  */
