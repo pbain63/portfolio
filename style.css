@@ -501,9 +501,6 @@ header {
   .project__card + .project__card {
     margin-top: 0;
   }
-  /* .project__name_and_icons {
-    width: 85%;
-  } */
 }
 @media (min-width: 700px) {
   /* Contact section */
@@ -589,9 +586,7 @@ header {
   .project__card + .project__card {
     margin-top: 0;
   }
-  /* .project__name_and_icons {
-    width: 85%;
-  } */
+
   .testimonials--content:hover {
     box-shadow: none;
   }
