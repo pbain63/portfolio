@@ -148,7 +148,8 @@ header {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  border: 2px solid red;
 }
 .about_me__text {
   margin: 1rem 0;
