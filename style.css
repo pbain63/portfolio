@@ -679,7 +679,11 @@ body.dark-mode #backToTopBtn {
   color: #333;
 }
 /*  */
-
+@media (min-width: 500px) {
+  body.dark-mode .background-shape {
+    display: none;
+  }
+}
 @media (min-width: 1024px) {
   body.dark-mode .nav__link {
     background-color: #444;
