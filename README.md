@@ -22,19 +22,27 @@ This portfolio helps you:
 - **Skills** — technical proficiencies (HTML, CSS, JavaScript, etc.)
 - **Projects** — visual cards with project titles and links
 - **Testimonials** — space to add feedback from clients or collaborators
-- **Resume** — link to download or view my CV
+- **Résumé** — link to download or view my CV
 - **Contact** — email link and social profiles
+
+---
+
+## Screenshots
+
+| Desktop View                                         | Tablet View                                        | Mobile View                                        | Desktop Dark Mode View                                              |
+| ---------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Desktop](assets/screenshots/portfolio-desktop.jpg) | ![Tablet](assets/screenshots/portfolio-tablet.jpg) | ![Mobile](assets/screenshots/portfolio-mobile.jpg) | ![Desktop-dark-mode](assets/screenshots/portfolio-desktop-dark.jpg) |
 
 ---
 
 ## Features
 
 - **Responsive Design** — Optimized for desktop, tablet, and mobile devices
-- **Smooth Navigation** — Includes About, Skills, Projects, Testimonials, Resume, and Contact sections
+- **Smooth Navigation** — Includes About, Skills, Projects, Testimonials, Résumé, and Contact sections
 - **Mobile Hamburger Menu** — Simplified navigation for smaller screens
 - **Testimonials Section** — Placeholder for future client reviews
-- **Downloadable Resume** — Linked to resume
-- **Contact Form** — Built with a simple HTML form (form functionality coming soon)
+- **Downloadable Résumé** — Linked to résumé
+<!-- - **Contact Form** — Built with a simple HTML form (form functionality coming soon) -->
 
 ---
 
@@ -48,13 +56,6 @@ This portfolio helps you:
 
 ---
 
-## Screenshots
-
-| Desktop View                                         | Tablet View                                        | Mobile View                                        | Desktop Dark Mode View                                              |
-| ---------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------- |
-| ![Desktop](assets/screenshots/portfolio-desktop.jpg) | ![Tablet](assets/screenshots/portfolio-tablet.jpg) | ![Mobile](assets/screenshots/portfolio-mobile.jpg) | ![Desktop-dark-mode](assets/screenshots/portfolio-desktop-dark.jpg) |
-
----
 
 ## Responsive Design
 
