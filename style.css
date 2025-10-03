@@ -641,7 +641,9 @@ body.dark-mode .about_me--content {
 body.dark-mode .about_me__github__icon,
 body.dark-mode .about_me__linkedin__icon,
 body.dark-mode .project__github__icon,
-body.dark-mode .project__open-in-new__icon {
+body.dark-mode .project__open-in-new__icon,
+body.dark-mode .contact__github--icon,
+body.dark-mode .contact__linkedin--icon {
   background: #279df1;
 }
 
