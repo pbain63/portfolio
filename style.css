@@ -71,33 +71,21 @@ header {
 }
 .nav__list {
   border: 2px solid #005fa3;
-  /* padding: 0; */
-  /* margin: 0; */
   list-style: none;
   position: absolute;
   top: 100%;
   right: 0;
   width: 100%;
   max-width: 250px;
-  /* display: none; */
-  /* display: flex; */
   flex-direction: column;
-  /* transform-origin: top; */
-  /* transition: transform 0.3s ease-in-out; */
-  /* if display height small e.g. landscape */
-  /* max-height: 60vh;  */
   overflow-y: auto;
   max-height: 0;
-  /* Hide content when max-height is 0 */
-  /* overflow: hidden;  */
   /* Start invisible */
   opacity: 0;
   /* Add transition for smooth animation */
   /* transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in; */
 }
 .nav__list.nav--visible {
-  /* display: flex; */
-  /* transform: scaleY(1); */
   /* When nav--visible is added, set a max-height large enough to show content */
   max-height: 60vh;
   /* Make visible */
