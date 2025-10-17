@@ -1,11 +1,16 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navList = document.querySelector(".nav__list");
+// It's set to false initially because when the page first loads, the navigation menu is closed.
 let isOpen = false;
 
 navToggle.addEventListener("click", () => {
+  // 1. Flip the state
   isOpen = !isOpen;
+  // 2. Show or hide the menu
   navList.classList.toggle("nav--visible");
+  // 3. Change the button's icon
   navToggle.textContent = isOpen ? "✖" : "☰";
+  // 4. Update the accessibility attribute
   navToggle.setAttribute("aria-expanded", isOpen);
 });
 
