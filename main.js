@@ -9,6 +9,11 @@ navToggle.addEventListener("click", () => {
   // 2. Show or hide the menu
   navList.classList.toggle("nav--visible");
   // 3. Change the button's icon
+  //  if (isOpen) {
+  //   navToggle.textContent = "✖"; // Menu is open, show a close icon
+  // } else {
+  //   navToggle.textContent = "☰"; // Menu is closed, show a hamburger icon
+  // }
   navToggle.textContent = isOpen ? "✖" : "☰";
   // 4. Update the accessibility attribute
   navToggle.setAttribute("aria-expanded", isOpen);
