@@ -80,7 +80,7 @@ This portfolio helps you:
 
 - Connect contact form to Formspree or Netlify Forms.
 
-- Add real testimonials from clients or collaborators.
+- Add more testimonials from clients or collaborators.
 
 - Refine UI with better fonts and color palette.
 
