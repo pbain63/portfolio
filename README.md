@@ -92,8 +92,8 @@ This portfolio helps you:
 
 ### 1. Clone this Repository
 
-```bash
-git clone https://github.com/pbain63/Project_Homepage.git
+```
+git clone https://github.com/pbain63/portfolio.git
 ```
 
 ### 2. Open in Browser
