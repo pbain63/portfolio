@@ -19,7 +19,7 @@ This portfolio helps you:
 ## Sections Included
 
 - **About Me** — a brief introduction and background
-- **Skills** — technical proficiencies (HTML, CSS, JavaScript, etc.)
+- **Skills** — technical proficiencies (HTML5, CSS3, JavaScript etc.)
 - **Projects** — visual cards with project titles and links
 - **Testimonials** — space to add feedback from clients or collaborators
 - **Résumé** — link to download or view my CV
