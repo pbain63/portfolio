@@ -499,10 +499,10 @@ header {
 @media (min-width: 700px) {
   /* Contact section */
   .contact-image-outside-container {
-    display: none;
+    /* display: none; */
   }
   .contact-image-inside-container {
-    display: block;
+    /* display: block; */
   }
   .contact__row--wrapper {
     display: flex;
