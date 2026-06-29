@@ -396,7 +396,7 @@ header {
 .contact__container--wrapper {
   background: #00b4d2;
   padding-top: 1.5rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
 }
 .contact__text {
   margin-bottom: 1.5rem;
