@@ -498,6 +498,11 @@ header {
 }
 @media (min-width: 700px) {
   /* Contact section */
+  .contact__row--wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .contact-image-outside-container {
     /* display: none; */
   }
@@ -592,6 +597,9 @@ header {
   .resume--content:hover {
     transform: scale(1.2) rotateZ(0deg);
     transition: transform 0.2s ease-out;
+  }
+  .contact__row--wrapper {
+    width: 80%;
   }
 }
 
