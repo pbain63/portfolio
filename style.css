@@ -429,7 +429,7 @@ header {
 }
 
 .contact-image-inside-container {
-  display: none;
+  /* display: none; */
 }
 
 /* Back to top button */
