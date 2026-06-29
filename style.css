@@ -431,6 +431,13 @@ header {
 .contact-image-inside-container {
   /* display: none; */
 }
+.contact__row--wrapper {
+  border: 2px solid red;
+}
+.contact__info {
+  padding-bottom: 3rem;
+  border: 2px solid yellow;
+}
 
 /* Back to top button */
 #backToTopBtn {
