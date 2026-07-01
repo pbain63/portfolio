@@ -457,9 +457,6 @@ header {
   .background-shape {
     height: 60%;
   }
-  .hero__image--content {
-    /* width: 100%; */
-  }
   .hero__image {
     width: 220px;
     float: left;
