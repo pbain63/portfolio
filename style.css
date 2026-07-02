@@ -499,9 +499,6 @@ header {
     max-width: 1200px;
     margin: 0 auto;
   }
-  .contact-image-inside-container {
-    /* display: block; */
-  }
   .contact__row--wrapper {
     display: flex;
     justify-content: space-between;
