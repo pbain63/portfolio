@@ -56,7 +56,6 @@ This portfolio helps you:
 
 ---
 
-
 ## Responsive Design
 
 - Mobile-first layout
@@ -138,20 +137,8 @@ Contributions are welcome! Here’s how:
 
 ---
 
-## Connect With Me
-
-LinkedIn: https://www.linkedin.com/in/prodipbain
-
-GitHub: [GitHub](https://github.com/pbain63)
-
-Email: prodipbain63@gmail.com
-
----
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-Made with ❤️ by [Prodip Bain](https://github.com/pbain63)
